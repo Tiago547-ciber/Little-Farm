@@ -1,0 +1,202 @@
+audio{
+  position:absolute;
+  z-index: 1;
+  margin: 350px 0px 0px 120px;
+}
+
+body{
+  background-image: url("./imagem/fundo.jpeg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: 1500px 3000px;
+}
+
+#body2{
+  background-image: url("./imagem/fundo.jpeg");
+  animation: move5 20s alternate infinite;
+  animation-delay: 1s;
+  background-size: 1500px 3000px;
+  overflow: hidden;
+  
+}
+
+#logo {
+  width: 600px;
+  height: 600px;
+  background-image: url("./imagem/logo.png");
+  background-size: cover;
+  margin: 400px 5px 5px 180px;
+  position: absolute;
+  z-index: 2;
+  opacity: 100%;
+  animation: move2 2s;
+}
+
+#little {
+  width: 280px;
+  height: 200px;
+  background-image: url("./imagem/little.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 550px 5px 5px 335px;
+  position: absolute;
+  z-index: 3;
+  opacity: 100%;
+  animation: move3 1s;
+}
+
+#farm {
+  width: 390px;
+  height: 310px;
+  background-image: url("./imagem/farm.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 660px 5px 5px 275px;
+  position: absolute;
+  z-index: 4;
+  opacity: 100%;
+  animation: move4 1s;
+}
+
+.front {
+  width:800px;
+  height: 800px;
+  position: absolute;
+  margin: 550px 0px 0px 100px;
+}
+
+button {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 5px 5px 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#titulo {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  font-size: 60px;
+  margin: 360px 0px 0px 150px;
+  width:700px;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+
+#titulo2 {
+  background-color: rgba(255, 255, 255, 1);
+  margin: 320px 0px 0px 120px;
+  width:750px;
+  height: 200px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+#entrar{
+  width: 500px;
+  height: 200px;
+  margin: 600px 5px 5px 150px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  z-index: 1;
+  border-radius: 20px;
+  animation: move 1s;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#desafio{
+  width: 500px;
+  height: 200px;
+  margin: 600px 5px 5px 150px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  z-index: 1;
+  border-radius: 20px;
+  animation: move6 1s;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#sons{
+  width: 500px;
+  height: 200px;
+  margin: 10px 5px 5px 150px;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  z-index: 2;
+  border-radius: 20px;
+  animation: move6 1s;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+@keyframes move{
+  0% {
+    margin: 600px 5px 5px 800px;
+  }
+  80% {
+    margin: 600px 5px 5px 140px;
+  }
+  100% {
+    margin: 600px 5px 5px 150px;
+  }
+}
+
+@keyframes move2{
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes move3{
+  from {
+    opacity: 0%;
+    margin-left: 0px;
+  }
+  to {
+    opacity: 100%;
+    margin-left: 335px;
+  }
+}
+
+@keyframes move4{
+  from {
+    opacity: 0%;
+    margin-left: 200px;
+  }
+  to {
+    opacity: 100%;
+    margin-left: 275px;
+  }
+}
+
+@keyframes move5 {
+  from {
+    background-position: left 95% top 1%;
+  }
+  to {
+    background-position: right 95% top 1%;
+  }
+}
+
+@keyframes move6{
+  from {
+    opacity: 0%;
+    margin-left: 0px;
+  }
+  to {
+    opacity: 100%;
+    margin-left: 150px;
+  }
+}
+
