@@ -405,7 +405,7 @@ const avaliacao = setTimeout(() => {
     }else {
         titulo.innerHTML = "Embaralhando";
         setTimeout(() => {
-            window.location.href = "./Index.html";
+            window.location.href = "./about.html";
         },1000)
        
     };
@@ -887,7 +887,7 @@ function vef() {
             if (arr1[i] === arr2[i]) return false;
             infor.innerHTML = "Você errou!";
             setTimeout(() => {
-                window.location.href = "./Index.html";
+                window.location.href = "./about.html";
             }, 2000);
         }
         return true;
@@ -897,7 +897,7 @@ function vef() {
     if (arraysIguais(resposta, respostaS)) {
         infor.innerHTML = "Certa Resposta!!!";
         setTimeout(() => {
-            document.location.href = "./Index.html";
+            document.location.href = "./about.html";
         }, 2000);
     } else {
         arraysDiferentes(resposta, respostaS);
@@ -906,7 +906,7 @@ function vef() {
 }
 
 function game() {
-    window.location.href = "./Index.html";
+    window.location.href = "./about.html";
 }
 
 function game2() {
